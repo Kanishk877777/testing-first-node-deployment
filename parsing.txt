@@ -1,0 +1,9 @@
+using body-parser package
+
+const parser = require('body-parser)
+
+app.use(parser.urlencoded())
+
+now in app.post('/contact-us',(req,res)=>{
+    console.log(req.body); // this will print whatever the user has sent to us 
+})
